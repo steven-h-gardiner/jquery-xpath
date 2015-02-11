@@ -6349,4 +6349,5 @@ oObject.xpath	= function(sExpression, fNSResolver) {
 };
 cQuery.extend(cQuery.prototype, oObject);
 
-})()
+})();
+
