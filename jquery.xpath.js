@@ -30,7 +30,7 @@ var cString		= window.String,
 	nNaN		= window.NaN,
 	nInfinity	= window.Infinity,
 		fString_trim	=(function() {
-		return cString.prototype.trim ? function(sValue) {return cString(sValue).trim();} : function(sValue) {
+		    return cString("").trim ? function(sValue) {return cString(sValue).trim();} : function(sValue) {
 			return cString(sValue).replace(/^\s+|\s+$/g, '');
 		};
 	})(),
